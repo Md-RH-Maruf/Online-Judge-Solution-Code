@@ -13,7 +13,7 @@ process.stdin.on('data',(input)=>{
 process.stdin.on('end',()=>{
     inputString = inputString.split('\n');
 
-    main()
+    main();
 });
 
 function readLine(){
